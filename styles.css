@@ -1,0 +1,98 @@
+body {  
+    font-family: Arial, sans-serif;  
+    margin: 0;  
+    padding: 0;  
+    background-image: url('https://i.pinimg.com/originals/f1/d5/79/f1d5796663614404e2cd033140cf3c7c.gif');
+    background-size: cover;  
+    color: #fff;  
+}  
+
+header {  
+    text-align: center;  
+    padding: 20px;  
+    background-color: rgba(0, 0, 0, 0.5);  
+}  
+
+nav ul {  
+    list-style: none;  
+    padding: 0;  
+}  
+
+nav ul li {  
+    display: inline;  
+    margin: 0 15px;  
+}  
+
+nav a {  
+    color: #fff;  
+    text-decoration: none;  
+}  
+
+main {  
+    padding: 20px;  
+}  
+
+h1, h2 {  
+    color: #ffffff;  
+}  
+
+footer {  
+    text-align: center;  
+    padding: 10px;  
+    background-color: rgba(0, 0, 0, 0.5);  
+}  
+.blotter-container {  
+    display: flex;  
+    flex-direction: column;  
+    align-items: center;  
+    margin: 20px 0;  
+}  
+
+.blotter-row {  
+    display: flex;  
+    justify-content: center;  
+    margin: 5px 0;  
+}  
+
+.blotter-row span {  
+    font-size: 24px; /* Adjust font size as needed */  
+    padding: 10px;  
+    margin: 0 5px;  
+    background: rgba(255, 255, 255, 0.2); /* Semi-transparent background */  
+    border-radius: 5px;  
+    transition: background 0.3s;  
+}  
+
+.blotter-row span:hover {  
+    background: rgba(255, 255, 255, 0.5); /* Change background on hover */  
+}  
+#adoptables {  
+    text-align: center;  
+    margin: 20px 0;  
+}  
+
+.adoptables-container {  
+    display: flex;  
+    flex-wrap: wrap;  
+    justify-content: center;  
+    margin-top: 20px;  
+}  
+
+.adoptable-item {  
+    margin: 15px;  
+    border: 1px solid #fff;  
+    border-radius: 10px;  
+    padding: 10px;  
+    background: rgba(255, 255, 255, 0.2); /* Semi-transparent background */  
+    transition: transform 0.3s, background 0.3s;  
+}  
+
+.adoptable-item img {  
+    max-width: 150px; /* Adjust image size as needed */  
+    border-radius: 5px;  
+}  
+
+.adoptable-item:hover {  
+    transform: scale(1.05); /* Slightly enlarge the item on hover */  
+    background: rgba(255, 255, 255, 0.4);  
+}  
